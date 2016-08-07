@@ -1,0 +1,19 @@
+{
+  "_id": "c-20",
+  "_parentId": "b-20",
+  "_type": "component",
+  "_component":"game-frame",
+  "_classes":"",
+  "_layout":"full",
+  "title": "Game Title",
+  "displayTitle": "Game Title",
+  "body": "A description of the purpose of your game.",
+  "instruction": "Click on the game window below to begin.",
+  "_source": "course/en/game/index.html",
+  "_loadingImg": "course/en/game/loading.png",
+  "_originURL": "http://localhost:9001",
+  "_scrolling": "no",
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}

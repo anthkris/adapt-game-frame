@@ -1,0 +1,30 @@
+{
+  "name": "adapt-game-frame",
+  "version": "2.0.2",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/anthkris/adapt-game-frame",
+  "displayName" : "Game Frame",
+  "component" : "game-frame",
+  "description": "An iframe component (based on responsive iframe) to enable playing a PhaserJS or other HTML5 game before the course moves to the next component",
+  "main": "/js/adapt-game-frame.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component",
+    "modal",
+    "phaser-js",
+    "game"
+  ],
+  "license": "GPLv3",
+  "authors": [
+    "kristin@knanthony.com"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/plugins",
+    "test",
+    "tests"
+  ]
+}
