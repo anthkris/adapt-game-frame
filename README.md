@@ -40,7 +40,7 @@ guide the learner’s interaction with the component.
 
 **_loadingImg** (string): The source of an image that can show to prevent an empty black square when the user hasn't clicked on the game.
 
-**_originURL** (string): This is the URL of the **adapt course**. This allows the game to pass a message to the course using the postMessage API, e.g. http://localhost:9001
+**_originURL** (string): This is the URL of the **adapt course**. This allows the game to pass a message to the course using the postMessage API, e.g. http://localhost:9001 This message is used to trigger the setCompletionStatus for the component and block.
 
 ## Limitations
 
