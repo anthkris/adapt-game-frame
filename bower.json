@@ -5,7 +5,7 @@
   "homepage": "https://github.com/anthkris/adapt-game-frame",
   "displayName" : "Game Frame",
   "component" : "game-frame",
-  "description": "An iframe component (based on responsive iframe) to enable playing a PhaserJS or other HTML5 game before the course moves to the next component",
+  "description": "An iframe component to enable playing an HTML5 game.",
   "main": "/js/adapt-game-frame.js",
   "keywords": [
     "adapt-plugin",
