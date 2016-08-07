@@ -20,14 +20,14 @@ define(function(require) {
 
         postRender: function() {
             var that = this;
-            this.$('.responsiveIframe-iframe').ready(function() {
+            this.$('.gameIframe-iframe').ready(function() {
                 that.setReadyStatus();
             });
         },
 
         once: function(fired) {
           if (!fired) {
-            this.$('.responsiveIframe-iframe').attr('src', this.model.get('_source'));
+            this.$('.gameIframe-iframe').attr('src', this.model.get('_source'));
           } else {
             return;
           }
@@ -50,6 +50,6 @@ define(function(require) {
 
     });
 
-    Adapt.register("gameIframe", GameIframe);
+    Adapt.register("game-frame", GameIframe);
 
 });
