@@ -18,6 +18,9 @@
   "authors": [
     "kristin@knanthony.com"
   ],
+  "dependencies": {
+  "adapt-game-frame" : "git://github.com/anthkris/adapt-game-frame.git"
+  },
   "private": false,
   "ignore": [
     "**/.*",
