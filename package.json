@@ -1,0 +1,15 @@
+{
+  "name": "adapt-game-frame",
+  "version": "1.0.0",
+  "description": "An iframe compontent for HTML5 games.",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anthkris/adapt-game-frame.git"
+  },
+  "author": "Kristin Anthony <kristin@knanthony.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/anthkris/adapt-game-frame/issues"
+  },
+}
