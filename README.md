@@ -2,7 +2,7 @@
 
 **Game Frame** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework).  
 
-<img src="https://github.com/anthkris/adapt-game-frame/about/iframe-screenshot.png" alt="sample game iframe component" align="center">
+<img src="https://github.com/anthkris/adapt-game-frame/raw/master/about/iframe-screenshot.png" alt="sample game iframe component" align="center">
 
 **Game Frame** is based on the [Responsive Iframe](https://github.com/adaptlearning/adapt-contrib-responsiveIframe) plugin and is built to allow you to embed responsive HTML5 games from tools like PhaserJS into your course and block the course from continuing until the game is complete.
 
