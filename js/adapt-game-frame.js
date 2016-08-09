@@ -20,21 +20,25 @@ define(function(require) {
 
         postRender: function() {
             var that = this;
-            this.$('.gameIframe-iframe').ready(function() {
+            /*this.$('.gameIframe-iframe').ready(function() {
+                that.setReadyStatus();
+            });*/
+            this.$('.gameIframe-object').ready(function() {
                 that.setReadyStatus();
             });
         },
-
+        /* This function only allows the data or src of the game frame to be set once */
         once: function(fired) {
           if (!fired) {
-            this.$('.gameIframe-iframe').attr('src', this.model.get('_source'));
+            /* Options included to allow for using either the iframe or the object tag */
+            this.$('.gameIframe-object').attr('data', this.model.get('_source'));
+            // this.$('.gameIframe-iframe').attr('src', this.model.get('_source'));
           } else {
             return;
           }
         },
 
         gameComplete: function(e) {
-          console.log("The game is complete");
           if (e.origin === this.model.get('_originURL')) {
             this.setCompletionStatus();
           }
