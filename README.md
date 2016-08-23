@@ -6,7 +6,7 @@
 
 **Game Frame** is based on the [Responsive Iframe](https://github.com/adaptlearning/adapt-contrib-responsiveIframe) plugin and is built to allow you to embed responsive HTML5 games from tools like PhaserJS into your course and block the course from continuing until the game is complete.
 
-[Visit the **Game Frame** wiki](https://github.com/adaptlearning/adapt-game-frame/wiki) for more information about its functionality and for explanations of key properties.
+[Visit the **Game Frame** wiki](https://github.com/anthkris/adapt-game-frame/wiki) for more information about its functionality and for explanations of key properties.
 
 ##Installation
 
@@ -21,7 +21,7 @@ With the [Adapt CLI](https://github.com/adaptlearning/adapt-cli) installed, run 
 
 ## Settings Overview
 
-The attributes listed below are used in *components.json* to configure **Game Frame**, and are properly formatted as JSON in [*example.json*](https://github.com/anthkris/adapt-game-frame/example.json).
+The attributes listed below are used in *components.json* to configure **Game Frame**, and are properly formatted as JSON in [*example.json*](https://github.com/anthkris/adapt-game-frame/blob/master/example.json).
 
 ### Attributes
 
