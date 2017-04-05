@@ -32,6 +32,7 @@ define(function(require) {
           if (!fired) {
             /* Options included to allow for using either the iframe or the object tag */
             this.$('.gameIframe-object').attr('data', this.model.get('_source'));
+            this.model.set('_isFired', true);
             // this.$('.gameIframe-iframe').attr('src', this.model.get('_source'));
           } else {
             return;
@@ -46,8 +47,9 @@ define(function(require) {
 
         inview: function(event, visible) {
             if (visible) {
+              fired = this.model.get('_isFired');
               this.once(fired);
-              fired = true;
+              //fired = true;
               window.addEventListener('message', this.gameComplete.bind(this), false);
             }
         }
