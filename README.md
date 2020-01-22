@@ -83,7 +83,7 @@ once: function(fired) {
 The message is still passed appropriately to the Adapt course.
 
 ----------------------------
-**Version number:**  1.0.0 
+**Version number:**  1.1.0 
 **Framework versions:** 2.0  
 **Author / maintainer:** Kristin Anthony  
 **Accessibility support:** Unknown  
