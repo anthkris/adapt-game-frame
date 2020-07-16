@@ -3,9 +3,12 @@
   {{> component this}}
   <div class="component__widget gameIframe__widget">
     <div class="gameIframe-iframe-holder">
-      <iframe scrolling="{{#if _scrolling}}{{_scrolling}}{{else}}no{{/if}}" class="gameIframe-iframe" src="{{_source}}" style="height:{{_height}}px; width:{{_width}}px;">
-      </iframe>
-      <!-- <object type="text/html" data="" class="gameIframe-object"></object> -->
+      <img src="{{_loadingImg}}" />
+      <!-- You have the option of using a responsive iframe or a responsive object tag. PhaserJS games are not responsive
+      on iOS devices using the iFrame. Use the object tag instead.-->
+      <!-- <iframe scrolling="{{#if _scrolling}}{{_scrolling}}{{else}}no{{/if}}" class="gameIframe-iframe" src="">
+      </iframe> -->
+      <object type="text/html" data="" class="gameIframe-object"></object>
     </div>
   </div>
 </div>
