@@ -56,6 +56,9 @@ define(function(require) {
 
     });
 
-    Adapt.register("game-frame", GameIframe);
+    return Adapt.register('game-frame', {
+      model: ComponentModel.extend({}),// create a new class in the inheritance chain so it can be extended per component type if necessary later
+      view: GameIframe
+    });
 
 });
